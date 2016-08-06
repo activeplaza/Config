@@ -5,6 +5,15 @@ proxypool1 us1.ethermine.org:4444
 proxypool2 us2.ethermine.org:4444
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
+cor 113-2E3243U-X4H 1150
+mem 113-2E3243U-X4H 1500
+pwr 113-2E3243U-X4H 50
+cor 115-C766PI20-101 980
+mem 115-C766PI20-101 1480
+pwr 115-C766PI20-101 20
+cor 115-C766PI2-101 800
+mem 115-C766PI2-101 1500
+pwr 115-C766PI2-101 20
 
 # QUICK START GUIDE
 #
