@@ -14,11 +14,14 @@ pwr 115-C766PI20-101 20
 cor 115-C766PI2-101 790
 mem 115-C766PI2-101 1500
 pwr 115-C766PI2-101 20
+custompanel f246b8active
 reb 10d64f 2
 reb 10d762 2
 reb 10d770 2
 reb 016a90 1
 reb 10d669 1
+reb 016aa2 1
+reb 10d756 1
 
 # QUICK START GUIDE
 #
