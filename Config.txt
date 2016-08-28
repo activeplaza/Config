@@ -27,6 +27,9 @@ reb 016ab4 1
 reb 016abe 2
 reb 016b4d 2
 reb 016a9c 3
+reb 016a86 1
+reb 016a98 1
+reb 016ac2 1
 
 # QUICK START GUIDE
 #
