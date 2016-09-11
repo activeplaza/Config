@@ -17,8 +17,8 @@ pwr 115-C766PI2-101 20
 custompanel activeahmed1
 reb 10d64f 2
 reb 10d762 2
-reb 10d770 2
-reb 016a90 1
+reb 10d770 3
+reb 016a90 2
 reb 10d669 1
 reb 016aa2 1
 reb 10d756 1
