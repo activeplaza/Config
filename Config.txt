@@ -1,6 +1,6 @@
 maxgputemp 93
 stratumproxy miner
-proxywallet 0xE08bADe55553698E5289F9f0B62953F11203ce08
+proxywallet 0x7ea16720658aB65E621D949b70317e7b8B8b2cd8
 proxypool1 us1.ethpool.org:3333
 proxypool2 us2.ethpool.org:3333
 flags --cl-global-work 8192 --cl-local-work 256 --farm-recheck 200
