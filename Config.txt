@@ -1,8 +1,8 @@
 maxgputemp 93
 stratumproxy miner
 proxywallet 0xE08bADe55553698E5289F9f0B62953F11203ce08
-proxypool1 donkeypool.com:5082
-proxypool2 us1.ethpool.org:3333
+proxypool1 us1.ethpool.org:3333
+proxypool2 us2.ethpool.org:3333
 flags --cl-global-work 8192 --cl-local-work 256 --farm-recheck 200
 globalfan 100
 cor 10d64f 800 1145 1145 1145 1145 1145
@@ -27,18 +27,31 @@ cor 115-C766PI2-101 750
 mem 115-C766PI2-101 1500
 pwr 115-C766PI2-101 20
 custompanel activeahmed1
-reb 10d770 5
-reb 016a90 2
-reb 10d669 1
-reb 016aa2 1
-reb 016aea 1
-reb 016ab4 1
-reb 016abe 2
+reb 10d770 6
+reb 016a90 3
+reb 10d669 2
+reb 016aa2 2
+reb 016aea 2
+reb 016ab4 2
+reb 016abe 3
 reb 016b4d 1
-reb 016a9c 3
-reb 016a86 2
-reb 016a98 2
-
+reb 016a9c 4
+reb 016a86 3
+reb 016a98 3
+reb 10d64f 1
+reb 10d756 1
+reb 10d762 1
+reb 016a9e 1
+reb 016a92 1
+reb 016abc 1
+reb 016ac0 1
+reb 016ac2 1
+reb 016ac6 1
+reb 016acc 1
+reb 016ae0 1
+reb 016aec 1
+reb 016bde 1
+reb 10d65d 1
 
 # QUICK START GUIDE
 #
