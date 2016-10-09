@@ -6,7 +6,7 @@ proxypool2 us2.ethpool.org:3333
 flags --cl-global-work 8192 --cl-local-work 256 --farm-recheck 200
 globalfan 100
 driver 70ab7e amdgpu
-
+driver 96abe8 amdgpu
 cor 113-D0090101_103 1500
 mem 113-D0090101_103 2250
 pwr 113-D0090101_103 7
