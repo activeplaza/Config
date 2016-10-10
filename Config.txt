@@ -1,4 +1,5 @@
 maxgputemp 93
+globalminer sgminer-gm
 stratumproxy miner
 proxywallet 0x7ea16720658aB65E621D949b70317e7b8B8b2cd8
 proxypool1 us1.ethpool.org:3333
