@@ -10,6 +10,10 @@ driver 70ab7e amdgpu
 driver 96abe8 amdgpu
 driver 9a4f05 amdgpu
 driver 912fe9 amdgpu
+driver 5ea07f amdgpu
+cor 5ea07f 1200 1200 1200 1200 1200 1200
+mem 5ea07f 2235 2235 2235 2235 2235 2235
+pwr 5ea07f 7 7 7 7 7 7
 cor 96abe8 1200 1200 1200 1200 1200 1200
 mem 96abe8 2235 2235 2235 2235 2235 2235
 pwr 96abe8 7 7 7 7 7 7
