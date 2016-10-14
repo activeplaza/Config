@@ -9,7 +9,6 @@ globalfan 100
 driver 70ab7e amdgpu
 driver 96abe8 amdgpu
 driver 912fe9 amdgpu
-driver 5ea07f amdgpu
 driver 93c4aa amdgpu
 driver 016ae6 amdgpu
 driver 969758 amdgpu
@@ -26,9 +25,6 @@ pwr 016ae6 7 7 7 7 7 7
 cor 93c4aa 1200 1200 1200 1200 1200 1200
 mem 93c4aa 2235 2235 2235 2235 2235 2235
 pwr 93c4aa 7 7 7 7 7 7
-cor 5ea07f 1200 1200 1200 1200 1200 1200
-mem 5ea07f 2235 2235 2235 2235 2235 2235
-pwr 5ea07f 7 7 7 7 7 7
 cor 96abe8 1200 1200 1200 1200 1200 1200
 mem 96abe8 2235 2235 2235 2235 2235 2235
 pwr 96abe8 7 7 7 7 7 7
