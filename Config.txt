@@ -8,7 +8,6 @@ flags --cl-global-work 16384 --cl-local-work 256 --farm-recheck 200
 globalfan 100
 driver 70ab7e amdgpu
 driver 96abe8 amdgpu
-driver 9a4f05 amdgpu
 driver 912fe9 amdgpu
 driver 5ea07f amdgpu
 driver 93c4aa amdgpu
@@ -36,9 +35,6 @@ pwr 96abe8 7 7 7 7 7 7
 cor 70ab7e 1200 1200 1200 1200 1200 1200
 mem 70ab7e 2235 2235 2235 2235 2235 2235
 pwr 70ab7e 7 7 7 7 7 7
-cor 9a4f05 1200 1200 1200 1200 1200 1200
-mem 9a4f05 2235 2235 2235 2235 2235 2235
-pwr 9a4f05 7 7 7 7 7 7
 cor 912fe9 1200 1200 1200 1200 1200 1200
 mem 912fe9 2235 2235 2235 2235 2235 2235
 pwr 912fe9 7 7 7 7 7 7
