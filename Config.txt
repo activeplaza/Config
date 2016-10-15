@@ -17,6 +17,7 @@ driver 016a90 amdgpu
 driver 016a9e amdgpu
 driver 016b4d amdgpu
 driver 7a705b amdgpu
+driver 9734de amdgpu
 cor 016b4d 1200 1200 1200 1200 1200 1200
 mem 016b4d 2235 2235 2235 2235 2235 2235
 pwr 016b4d 7 7 7 7 7 7
