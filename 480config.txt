@@ -1,4 +1,4 @@
-maxgputemp 85
+maxgputemp 90
 stratumproxy nicehash
 proxywallet 19nJiCeNF5hrBDWP2Ah5fwuKywNptLHRmu
 proxypool1 daggerhashimoto.usa.nicehash.com:3353
