@@ -1,0 +1,155 @@
+maxgputemp 85
+stratumproxy nicehash
+proxywallet 19nJiCeNF5hrBDWP2Ah5fwuKywNptLHRmu
+proxypool1 daggerhashimoto.usa.nicehash.com:3353
+proxypool2 daggerhashimoto.eu.nicehash.com:3353
+flags --cl-global-work 8192 --farm-recheck 200
+globalfan 100
+globaldriver amdgpu
+globalcore 0
+globalmem 0
+globalpowertune 7
+custompanel activeahmed1
+
+# QUICK START GUIDE: ethosdistro.com/kb/#quick-start-guide
+#
+# Read the ethOS knowledge base, a useful guide to getting set up: ethosdistro.com/kb
+# Read the ethOS changelog for version information and latest changes: ethosdistro.com/changelog
+#
+# NOTE: Everything with a hashtag/poundsign is a comment, and is ignored by all scripts.
+# NOTE: There is no email or skype support for ethOS. Please see the 'Getting Support' section of the ethOS knowledge base.
+# WARNING: Using apt-get to upgrade, update, and/or install packages is unsupported and will likely break ethOS.
+#
+# GLOBAL CONFIG SETTINGS THAT APPLY TO ALL RIGS, ALSO WORKS IN SINGLE RIG MODE
+# SAMPLE FORMAT: 
+# [type] [value]
+# ------------------------------------------------------
+# globaldriver fglrx
+# globalminer ethminer
+# maxgputemp 85
+# stratumproxy enabled
+# proxywallet 0x0bdC4F12fB57d3acA9C3cF72B7AA2789A20d27f2
+# proxypool1 us1.ethermine.org:4444
+# proxypool2 us2.ethermine.org:4444
+# flags --farm-recheck 200
+# globalcore 1000
+# globalmem 1250
+# globalfan 90
+# globalpowertune 20
+# autoreboot false
+# custompanel publicsecret
+# lockscreen enabled
+# ------------------------------------------------------
+#
+# EXPLANATION OF SETTINGS THAT APPLY TO ALL RIGS
+#
+# If using "pool" parameter, write WORKER (a placeholder variable) in place of rig name (i.e. NOT rig1, myrig, home, warehouse2, etc).
+#
+# globaldriver:		set to amdgpu to enable support for RX 400 series, fglrx is default (available in ethOS 1.1.0+)
+# globalminer:		set the global miner (default is ethminer, possible options: sgminer-gm, available in ethOS 1.1.2+)
+# stratumproxy:         enabled/disabled/miner/nicehash (enabled by default; disabled: pool option, nicehash: nicehash support, miner: internal miner proxy)
+# pool:                 only used with stratumproxy disabled, use this if you have a network proxy or getwork pool (example: http://pool.com:port/WORKER )
+# proxy wallet:         the ethereum address to which this rig's proxy will mine (only used if stratumproxy is not disabled)
+# proxypool1:           stratum proxy's first pool (only used if stratumproxy is not disabled)
+# proxypool2:           stratum proxy's failover pool (only used if stratumproxy not disabled)
+# flags:                set desired ethminer flags here, the defaults are known good working
+# maxgputemp:           the temperature in C that your GPUs will trigger ethminer to turn off
+# globalcore:           set the global core clock of all GPUs
+# globalmem:            set the global mem clock of all GPUs
+# globalfan:            set the fan speed percent (0-100)
+# globalpowertune:      set the power tune setting of all GPUs (notes from dev: 20 is default/max on everything except 290/390; r9 290 should use 50)
+# autoreboot:           set to true, allow rigs to autoreboot if they enter a non-mining state (very dangerous, possible cascading/perpetual reboots may occur)
+# custompanel:          set ethosdistro.com panel ID, exactly 12 characters, first 6 is your preferred panel ID, last 6 is your private key
+# lockscreen:		lock the ethOS desktop upon boot (available in ethOS 1.0.7+)
+#
+#
+# PER-RIG STYLE CONFIG SETTINGS THAT APPLY TO INDIVIDUAL RIGS (AND THEIR RESPECTIVE INDIVIDUAL GPUS)
+# DO NOT USE WITH SINGLE-RIG MODE
+# NOTICE: c94e13 is a SAMPLE rig/[worker]/hostname, change it to the rig/[worker]/hostname of YOUR RIG
+# NOTICE: Your rig/[worker]/hostname names are assigned automatically by the OS, do not change them
+#
+# SAMPLE FORMAT: 
+# [type] [worker] [gpu0 value] [gpu1 value] [gpu2 value] [gpu3 value] [gpu4 value]
+# ------------------------------------------------------
+# cor c94e13 950 1000 1050 1025 980
+# mem c94e13 1250 1500 1500 1250 1250
+# fan c94e13 90 80 85 100 70
+# pwr c94e13 10 20 15 15 20
+# vlt c94e13 0 1.118 0 0 1.118
+# ------------------------------------------------------
+#
+# PER-BIOS STYLE CONFIG SETTINGS THAT APPLY TO CLASS OF GPU, BASED ON GPU BIOS NAME
+# DO NOT USE IN SINGLE-RIG MODE
+# NOTICE: 113-C6711101-100 is a SAMPLE GPU bios name, change it to the GPU bios name of YOUR GPU
+# NOTICE: For a list of GPU bioses, click the "GPU bioses" link in your ethosdistro.com stats panel
+#
+# SAMPLE FORMAT:
+# [type] [bios name] [value]
+# ------------------------------------------------------
+# cor 113-C6711101-100 1050
+# mem 113-C6711101-100 1250
+# fan 113-C6711101-100 100
+# pwr 113-C6711101-100 50
+# vlt 113-C6711101-100 1.118
+# ------------------------------------------------------
+#
+# SAMPLE FORMAT: 
+# [type] [worker] [value]
+# ------------------------------------------------------
+# driver c94e13 fglrx
+# miner c94e13 ethminer
+# flg c94e13 --cl-local-work 256 --cl-global-work 8192 --farm-recheck 200
+# mxt c94e13 70
+# reb c94e13 1
+# loc c94e13 d3
+# sel c94e13 1 2 4
+# 
+# driverless c94e13 enabled
+# ------------------------------------------------------
+#
+# EXPLANATION OF SETTINGS FOR INDIVIDUAL RIGS
+#
+# driver [worker]: set to amdgpu to enable support for RX 400 series on a single rig, fglrx is default (available in ethOS 1.1.0+)
+# miner [worker]: set the miner (default is ethminer, possible options: sgminer-gm, available in ethOS 1.1.2+) 
+# cor [worker]: set the core clock of individual GPUs on a single rig
+# mem [worker]: set the mem clock of individual GPUs on a single rig
+# fan [worker]: set the fan speed of individual GPUs on a single rig
+# pwr [worker]: set the powertune of individual GPUs on a single rig
+# vlt [worker]: set the voltage (EXPERIMENTAL, MAY NOT WORK!) of individual GPUs on a single rig
+# flg [worker]: set the ethminer flags of a single rig (applies to all GPUs on the rig)
+# mxt [worker]: set the maxgputemp of a single rig (applies to all GPUs on the rig)
+# reb [worker]: increment this value (example: 4 becomes 5) and the single rig will automatically reboot within 10 minutes
+# loc [worker]: set an maximum 8-letter code for rack/location information on a single rig (each rig MUST have a different code, or it will not report to panel)
+# sel [worker]: set the GPUs that should mine, default is no sel flag set, all GPUs may mine)
+# driverless [worker]: force the rig to boot without graphics driver, for debugging purposes (this will turn off mining) (available in ethOS 1.0.7+)
+#
+# SAMPLE RX 400 SERIES CONFIG
+#
+# If you have global configs defined for fglrx rigs, you must use individual rig configs for rigs that have RX 400 series GPUS.
+#
+# KNOWN GOOD WORKING GLOBAL CONFIG
+# ------------------------------------------------------
+# globaldriver amdgpu
+# flags --cl-global-work 16384 --farm-recheck 200
+# globalpowertune 4
+# ------------------------------------------------------
+#
+# KNOWN GOOD WORKING PER-RIG CONFIG (for a 4-gpu rig)
+# DO NOT USE IN SINGLE-RIG MODE
+# ------------------------------------------------------
+# driver c94e13 amdgpu
+# flg c94e13 --cl-global-work 16384 --farm-recheck 200
+# pwr c94e13 4 4 4 4
+# ------------------------------------------------------
+#
+# REMOTE REBOOT NOTES
+#
+# You are able to reboot remotely. Start with "1" (no quotes) to reboot a rig.
+# Then, if you want to reboot again, increment it to 2, then 3, then 4, etc etc (never skip any numbers).
+#
+# SAMPLE NICEHASH CONFIG (use BTC wallet instead of ETH wallet, available in 1.0.7+)
+#
+# stratumproxy nicehash
+# proxywallet 17eUShTDYz9HVgK7obpU3WMUKdebdUsazw
+# proxypool1 daggerhashimoto.usa.nicehash.com:3353
+# proxypool2 daggerhashimoto.eu.nicehash.com:3353
