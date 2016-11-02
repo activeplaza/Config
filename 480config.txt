@@ -1,15 +1,13 @@
 maxgputemp 93
-globalminer sgminer-gm
+globalminer zcash-miner
 stratumproxy miner
-proxywallet 0x7ea16720658aB65E621D949b70317e7b8B8b2cd8
-proxypool1 us1.ethpool.org:3333
-proxypool2 us2.ethpool.org:3333
+proxywallet t1e65Ff6ksfS5bPsLJT4QPTQ2XnN5R4AG3v
+proxypool1 zec-us-east1.nanopool.org:6666
+proxypool2 zec-us-west1.nanopool.org:6666
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 globaldriver amdgpu
-globalcore 0
-globalmem 0
-globalpowertune 7
+globalpowertune 4
 custompanel activeahmed1
 
 # QUICK START GUIDE: ethosdistro.com/kb/#quick-start-guide
