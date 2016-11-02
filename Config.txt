@@ -1,9 +1,9 @@
 maxgputemp 93
 globalminer zcash-miner
 stratumproxy miner
-proxywallet t1QRgtRRiSeg9wHSLZByq3fC4KKzbGRsYsJ
-proxypool1 us1-zcash.flypool.org:3333
-proxypool2 eu1-zcash.flypool.org:3333
+proxywallet t1e65Ff6ksfS5bPsLJT4QPTQ2XnN5R4AG3v
+proxypool1 zec-us-east1.nanopool.org:6666
+proxypool2 zec-us-west1.nanopool.org:6666
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 cor 10d756 800 1145 1145 1145 1145 1145
