@@ -7,8 +7,6 @@ proxypool2 zec-us-west1.nanopool.org:6666
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 globaldriver amdgpu
-globalcore 0
-globalmem 0
 globalpowertune 4
 custompanel activeahmed1
 
