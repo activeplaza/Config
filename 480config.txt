@@ -1,14 +1,14 @@
 maxgputemp 93
-#globalminer zcash-miner
-globalminer sgminer-gm
+globalminer zcash-miner
+#globalminer sgminer-gm
 stratumproxy miner
-proxywallet 0x2A8aC9Fd9782a539B338Ed8f37B43068281ba3aB
-#proxywallet t1e65Ff6ksfS5bPsLJT4QPTQ2XnN5R4AG3v
-proxypool1 us1.ethpool.org:3333
-proxypool2 us2.ethpool.org:3333
-#proxypool1 zec-us-east1.nanopool.org:6666
-#proxypool2 zec-us-west1.nanopool.org:6666
-#flags --cl-global-work 8192 --farm-recheck 200
+#proxywallet 0x2A8aC9Fd9782a539B338Ed8f37B43068281ba3aB
+proxywallet t1e65Ff6ksfS5bPsLJT4QPTQ2XnN5R4AG3v
+#proxypool1 us1.ethpool.org:3333
+#proxypool2 us2.ethpool.org:3333
+proxypool1 zec-us-east1.nanopool.org:6666
+proxypool2 zec-us-west1.nanopool.org:6666
+flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 globaldriver amdgpu
 globalpowertune 7
