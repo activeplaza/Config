@@ -4,8 +4,8 @@ globalminer sgminer-gm
 stratumproxy miner
 proxywallet 0x2A8aC9Fd9782a539B338Ed8f37B43068281ba3aB
 #proxywallet t1e65Ff6ksfS5bPsLJT4QPTQ2XnN5R4AG3v
-proxypool1 pool-usa.ethosdistro.com
-proxypool2 pool-eu.ethosdistro.com
+proxypool1 pool-usa.ethosdistro.com:5001
+proxypool2 pool-eu.ethosdistro.com:5001
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
 flags --cl-global-work 8192 --farm-recheck 200
