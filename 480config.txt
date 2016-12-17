@@ -12,6 +12,8 @@ flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 globaldriver amdgpu
 globalpowertune 7
+cor 9e3650 1180 1180 1180 1180 1180 1180
+mem 9e3650 2220 2220 2220 2220 2220 2220
 custompanel activeahmed1
 
 # QUICK START GUIDE: ethosdistro.com/kb/#quick-start-guide
