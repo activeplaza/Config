@@ -8,6 +8,7 @@ flags --cl-global-work 16384 --farm-recheck 200
 custompanel actzec123456
 globalfan 100
 globaldriver amdgpu
+globalpowertune 7
 
 # ethOS Pool: ethosdistro.com/pool
 #
