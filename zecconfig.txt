@@ -15,8 +15,8 @@ custompanel actzec123456
 globalfan 100
 globaldriver amdgpu
 globalpowertune 7
-globalcore 1288
-globalmem 2050
+globalcore 1240
+globalmem 2190
 
 # ethOS Pool: ethosdistro.com/pool
 #
