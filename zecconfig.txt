@@ -1,22 +1,23 @@
 maxgputemp 90
-stratumproxy enabled
-globalminer sgminer-gm-xmr
-sgminer-gm-xmr=proxypool1 xmr-usa.dwarfpool.com:8100 
-sgminer-gm-xmr=proxypool2 xmr-eu.dwarfpool.com:8050 
-sgminer-gm-xmr=proxywallet 47sghzufGhJJDQEbScMCwVBimTuq6L5JiRixD8VeGbpjCTA12noXmi4ZyBZLc99e66NtnKff34fHsGRoyZk3ES1s1V4QVcB.260c5d4a139c49e2b81fa08d6761a2084d38c30983218f9226166de1b2ecfa60
-sgminer-gm-xmr=poolpass1 x
-sgminer-gm-xmr=poolpass2 x
+globalminer sgminer-gm
+stratumproxy miner
+proxywallet 0x2A8aC9Fd9782a539B338Ed8f37B43068281ba3aB
+proxypool1 pool-usa.ethosdistro.com:5001
+proxypool2 pool-eu.ethosdistro.com:5001
+#globalminer sgminer-gm-xmr
+#sgminer-gm-xmr=proxypool1 xmr-usa.dwarfpool.com:8100 
+#sgminer-gm-xmr=proxypool2 xmr-eu.dwarfpool.com:8050 
+#sgminer-gm-xmr=proxywallet 47sghzufGhJJDQEbScMCwVBimTuq6L5JiRixD8VeGbpjCTA12noXmi4ZyBZLc99e66NtnKff34fHsGRoyZk3ES1s1V4QVcB.260c5d4a139c49e2b81fa08d6761a2084d38c30983218f9226166de1b2ecfa60
+#sgminer-gm-xmr=poolpass1 x
+#sgminer-gm-xmr=poolpass2 x
 #globalminer claymore-zcash
 #proxywallet t1etBrtmaL1nqN9Qv46zcibE5ZRVB1YyFqk
 #proxypool1 us1-zcash.flypool.org:3333
 #proxypool2 eu1-zcash.flypool.org:3333
-#flags --cl-global-work 16384 --farm-recheck 200
+flags --cl-global-work 16384 --farm-recheck 200
 custompanel actzec123456
 globalfan 100
 globaldriver amdgpu
-globalpowertune 7
-globalcore 1290
-globalmem 2050
 
 # ethOS Pool: ethosdistro.com/pool
 #
