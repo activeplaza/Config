@@ -1,4 +1,4 @@
-maxgputemp 93
+maxgputemp 95
 #globalminer zcash-miner
 globalminer sgminer-gm
 stratumproxy miner
