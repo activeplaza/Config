@@ -9,3 +9,5 @@ sgminer-gm-xmr=poolpass2 x
 globalfan 100
 custompanel activeahmed1
 globalpowertune 50
+cor 016b7e 1025 1025 1025 1025 1025
+mem 016b7e 1500 1500 1500 1500 1500
