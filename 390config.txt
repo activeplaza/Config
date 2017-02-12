@@ -3,7 +3,7 @@ stratumproxy enabled
 globalminer sgminer-gm-xmr
 sgminer-gm-xmr=proxypool1 xmr-usa.dwarfpool.com:8100 
 sgminer-gm-xmr=proxypool2 xmr-eu.dwarfpool.com:8050 
-sgminer-gm-xmr=proxywallet 47sghzufGhJJDQEbScMCwVBimTuq6L5JiRixD8VeGbpjCTA12noXmi4ZyBZLc99e66NtnKff34fHsGRoyZk3ES1s1V4QVcB.260c5d4a139c49e2b81fa08d6761a2084d38c30983218f9226166de1b2ecfa60
+sgminer-gm-xmr=proxywallet 4BCeEPhodgPMbPWFN1dPwhWXdRX8q4mhhdZdA1dtSMLTLCEYvAj9QXjXAfF7CugEbmfBhgkqHbdgK9b2wKA6nqRZQCgvCDm.0df80e41c62fcc20c42c12e7c903ae107ca8154d5a3bad6ef192e87199459897
 sgminer-gm-xmr=poolpass1 x
 sgminer-gm-xmr=poolpass2 x
 globalfan 100
