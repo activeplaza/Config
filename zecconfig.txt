@@ -18,3 +18,5 @@ flags --cl-global-work 16384 --farm-recheck 200
 custompanel actzec123456
 globalfan 100
 globaldriver amdgpu
+mem 9a4d13 2000 2000 2000 2000 2000 2000
+mem 9e3633 2000 2000 2000 2000 2000 2000
