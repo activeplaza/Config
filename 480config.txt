@@ -13,3 +13,4 @@ globalfan 100
 globaldriver amdgpu
 globalpowertune 7
 custompanel activeahmed1
+mem 9e3650 2000 2000 2000 2000 2000 2000
