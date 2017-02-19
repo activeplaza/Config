@@ -13,5 +13,3 @@ globalfan 100
 globaldriver amdgpu
 globalpowertune 7
 custompanel activeahmed1
-mem 9d60f6 1100 1100 1100 1100 1100
-pwr 9d60f6 7 7 7 7 7
