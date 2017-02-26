@@ -1,11 +1,11 @@
 maxgputemp 95
 stratumproxy enabled
-globalminer sgminer-gm-xmr
-sgminer-gm-xmr=proxypool1 xmr-usa.dwarfpool.com:8100 
-sgminer-gm-xmr=proxypool2 xmr-eu.dwarfpool.com:8050 
-sgminer-gm-xmr=proxywallet 4BCeEPhodgPMbPWFN1dPwhWXdRX8q4mhhdZdA1dtSMLTLCEYvAj9QXjXAfF7CugEbmfBhgkqHbdgK9b2wKA6nqRZQCgvCDm.0df80e41c62fcc20c42c12e7c903ae107ca8154d5a3bad6ef192e87199459897
-sgminer-gm-xmr=poolpass1 x
-sgminer-gm-xmr=poolpass2 x
+globalminer sgminer-gm
+stratumproxy miner
+proxywallet 0x2A8aC9Fd9782a539B338Ed8f37B43068281ba3aB
+proxypool1 us1.ethpool.org:3333
+proxypool2 us2.ethpool.org:3333
+flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 custompanel activeahmed1
 globalpowertune 50
