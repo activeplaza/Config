@@ -1,4 +1,4 @@
-maxgputemp 95
+maxgputemp 100
 stratumproxy enabled
 globalminer sgminer-gm
 stratumproxy miner
