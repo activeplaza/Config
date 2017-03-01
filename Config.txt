@@ -1,6 +1,6 @@
 maxgputemp 95
 #globalminer zcash-miner
-globalminer sgminer-gm
+globalminer claymore
 stratumproxy miner
 proxywallet 0x2A8aC9Fd9782a539B338Ed8f37B43068281ba3aB
 #proxywallet t1e65Ff6ksfS5bPsLJT4QPTQ2XnN5R4AG3v
