@@ -1,6 +1,6 @@
 maxgputemp 100
 stratumproxy enabled
-globalminer sgminer-gm
+globalminer claymore
 stratumproxy miner
 proxywallet 0x2A8aC9Fd9782a539B338Ed8f37B43068281ba3aB
 proxypool1 us1.ethpool.org:3333
