@@ -15,4 +15,4 @@ globalpowertune 7
 custompanel activeahmed1
 mem 9e3650 2000 2000 2000 2000 2000 2000
 mem 9d60f6 2000 2000 2000 2000 2000 2000
-pwrtune 10d669 4 4 4 4 4 4
+pwr 10d669 4 4 4 4 4 4
