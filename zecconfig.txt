@@ -1,5 +1,5 @@
 maxgputemp 90
-miner e14195 sgminer-gm
+#miner e14195 sgminer-gm
 globalminer claymore
 stratumproxy miner
 proxywallet 0x7ea16720658aB65E621D949b70317e7b8B8b2cd8
@@ -19,6 +19,9 @@ flags --cl-global-work 16384 --farm-recheck 200
 custompanel actzec123456
 globalfan 100
 globaldriver amdgpu
-cor e14195 1150 1150 1150 1150 1150 1150
-mem e14195 2100 2100 2100 2100 2100 2100
+globalmem 2220
+globalcore 1180
+globalpowertune 7
+#cor e14195 1150 1150 1150 1150 1150 1150
+#mem e14195 2100 2100 2100 2100 2100 2100
 #pwr e14195 7 7 7 7 7 7
