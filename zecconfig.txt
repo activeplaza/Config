@@ -1,6 +1,6 @@
 maxgputemp 90
-#miner e14195 sgminer-gm
-globalminer claymore
+globalminer sgminer-gm
+#globalminer claymore
 stratumproxy miner
 proxywallet 0x7ea16720658aB65E621D949b70317e7b8B8b2cd8
 proxypool1 us1.ethermine.org:4444
