@@ -3,8 +3,8 @@ maxgputemp 90
 globalminer claymore
 stratumproxy miner
 proxywallet 0x7ea16720658aB65E621D949b70317e7b8B8b2cd8
-proxypool1 pool-usa.ethosdistro.com:5001
-proxypool2 pool-eu.ethosdistro.com:5001
+proxypool1 us1.ethermine.org:4444
+proxypool2 us2.ethermine.org:4444
 #globalminer sgminer-gm-xmr
 #sgminer-gm-xmr=proxypool1 xmr-usa.dwarfpool.com:8100 
 #sgminer-gm-xmr=proxypool2 xmr-eu.dwarfpool.com:8050 
