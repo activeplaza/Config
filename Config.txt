@@ -16,6 +16,7 @@ pwr 115-C766PI20-101 20
 cor 115-C766PI2-101 990
 mem 115-C766PI2-101 1500
 pwr 115-C766PI2-101 20
+miner 10d65d sgminer-gm
 custompanel activeahmed1
 reb 10d770 7
 reb 016a90 4
