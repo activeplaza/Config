@@ -21,6 +21,7 @@ cor 10d65d 1180 1180 1180 1180 1180
 mem 10d65d 2050 2050 2050 2050 2050
 pwr 10d65d 7 7 7 7 7
 miner 016a92 sgminer-gm
+pwr 016aa2 7 7 7 7 7 7
 custompanel activeahmed1
 reb 10d770 7
 reb 016a90 4
