@@ -17,6 +17,7 @@ proxypool2 us2.ethermine.org:4444
 #proxypool2 eu1-zcash.flypool.org:3333
 flags --cl-global-work 16384 --farm-recheck 200
 custompanel actzec123456
+autoreboot 3
 globalfan 100
 globaldriver amdgpu
 globalmem 2000
