@@ -22,6 +22,4 @@ globalfan 100
 globaldriver amdgpu
 globalmem 2000
 #miner e14195 claymore
-cor 9a4f34 1220 1220 1220 1220 1220 1220
-mem 9a4f34 2050 2050 2050 2050 2050 2050
-pwr 9a4f34 7 7 7 7 7 7
+
