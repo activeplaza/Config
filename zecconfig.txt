@@ -5,16 +5,6 @@ stratumproxy miner
 proxywallet 0x7ea16720658aB65E621D949b70317e7b8B8b2cd8
 proxypool1 us1.ethermine.org:4444
 proxypool2 us2.ethermine.org:4444
-#globalminer sgminer-gm-xmr
-#sgminer-gm-xmr=proxypool1 xmr-usa.dwarfpool.com:8100 
-#sgminer-gm-xmr=proxypool2 xmr-eu.dwarfpool.com:8050 
-#sgminer-gm-xmr=proxywallet 47sghzufGhJJDQEbScMCwVBimTuq6L5JiRixD8VeGbpjCTA12noXmi4ZyBZLc99e66NtnKff34fHsGRoyZk3ES1s1V4QVcB.260c5d4a139c49e2b81fa08d6761a2084d38c30983218f9226166de1b2ecfa60
-#sgminer-gm-xmr=poolpass1 x
-#sgminer-gm-xmr=poolpass2 x
-#globalminer claymore-zcash
-#proxywallet t1etBrtmaL1nqN9Qv46zcibE5ZRVB1YyFqk
-#proxypool1 us1-zcash.flypool.org:3333
-#proxypool2 eu1-zcash.flypool.org:3333
 flags --cl-global-work 16384 --farm-recheck 200
 custompanel actzec123456
 autoreboot 3
@@ -26,4 +16,3 @@ globalpowertune 7
 #miner e14195 claymore
 mem 9ab62d 2125 2125 2125 2125 2000 2000
 cor 9ab62d 1180 1180 1180 1180 1170 1170
-pwr 9ab62d 7 7 7 7 7 7
