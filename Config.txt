@@ -59,7 +59,7 @@ pwr 5ea07f 20 20 20 20 20 20
 cor 9591b8 890 890 890 890 890 890
 mem 9591b8 1625 1625 1625 1625 1625 1625
 pwr 9591b8 20 20 20 20 20 20
-miner 016a9c sgminer-gm
+#miner 016a9c sgminer-gm
 custompanel activeahmed1
 reb 10d770 7
 reb 016a90 4
