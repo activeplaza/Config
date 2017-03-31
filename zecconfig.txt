@@ -10,9 +10,9 @@ custompanel actzec123456
 autoreboot 3
 globalfan 100
 globaldriver amdgpu
-globalcore 1220
-globalmem 2100
-globalpowertune 7
+#globalcore 1220
+globalmem 2000
+#globalpowertune 7
 #miner e14195 claymore
-mem 9ab62d 2100 2100 2100 2100 2000 2000
-cor 9ab62d 1180 1180 1180 1180 1170 1170
+#mem 9ab62d 2100 2100 2100 2100 2000 2000
+#cor 9ab62d 1180 1180 1180 1180 1170 1170
