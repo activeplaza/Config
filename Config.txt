@@ -70,6 +70,7 @@ cor 9e367f 1160 1160 1160 1160 1160 1160
 #miner 016a9c sgminer-gm
 miner 70ab7e sgminer-gm
 miner 9e3ab8 sgminer-gm
+miner 96c10c sgminer-gm
 custompanel activeahmed1
 reb 10d770 7
 reb 016a90 4
