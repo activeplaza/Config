@@ -15,7 +15,7 @@ miner eff6dc sgminer-gm
 miner effcd8 sgminer-gm
 miner 3366c5 sgminer-gm
 miner 70ab7e sgminer-gm
-#miner effb9c sgminer-gm
+miner effb9c sgminer-gm
 miner eff8f2 sgminer-gm
 cor 115-C766PI20-101 890
 mem 115-C766PI20-101 1600
