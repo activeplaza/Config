@@ -17,6 +17,7 @@ miner 3366c5 sgminer-gm
 miner 70ab7e sgminer-gm
 miner effb9c sgminer-gm
 miner eff8f2 sgminer-gm
+miner effa83 sgminer-gm
 cor 115-C766PI20-101 890
 mem 115-C766PI20-101 1600
 pwr 115-C766PI20-101 20
@@ -31,6 +32,9 @@ cor 113-D0090101_100 1180
 mem 113-D0090101_103 2125
 cor 113-D0090101_103 1220
 pwr 113-D0090101_103 7
+mem effa83 2000 2000 2000 2000 2000 2000
+cor effa83 1160 1160 1160 1160 1160 1160
+pwr effa83 5 5 5 5 5 5
 mem effb9c 2000 2000 2000 2000 2000 2000
 cor effb9c 1160 1160 1160 1160 1160 1160
 pwr effb9c 5 5 5 5 5 5
