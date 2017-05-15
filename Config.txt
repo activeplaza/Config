@@ -11,7 +11,7 @@ proxypool2 us2.ethpool.org:3333
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 autoreboot 3
-miner 9591b8 sgminer-gm
+#miner 9591b8 sgminer-gm
 miner eff6dc sgminer-gm
 miner effcd8 sgminer-gm
 miner 3366c5 sgminer-gm
