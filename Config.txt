@@ -13,7 +13,7 @@ globalfan 100
 autoreboot 3
 #miner 9591b8 sgminer-gm
 miner eff6dc sgminer-gm
-miner effcd8 sgminer-gm
+#miner effcd8 sgminer-gm
 miner 3366c5 sgminer-gm
 miner 70ab7e sgminer-gm
 miner effb9c sgminer-gm
