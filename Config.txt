@@ -12,17 +12,7 @@ flags --cl-global-work 8192 --farm-recheck 200
 globalfan 100
 autoreboot 3
 #miner 9591b8 sgminer-gm
-miner eff6dc sgminer-gm
-#miner effcd8 sgminer-gm
 miner 3366c5 sgminer-gm
-miner 70ab7e sgminer-gm
-miner effb9c sgminer-gm
-miner eff8f2 sgminer-gm
-miner effa83 sgminer-gm
-miner eff919 sgminer-gm
-miner eff834 sgminer-gm
-miner eff831 sgminer-gm
-#miner effb55 sgminer-gm
 cor 115-C766PI20-101 890
 mem 115-C766PI20-101 1600
 pwr 115-C766PI20-101 20
