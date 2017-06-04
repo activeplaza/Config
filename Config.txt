@@ -111,7 +111,7 @@ pwr 9591b8 20 20 20 20 20 20
 mem 9e367f 2000 2000 2000 2000 2000 2000
 cor 9e367f 1160 1160 1160 1160 1160 1160
 #miner 016a9c sgminer-gm
-miner 96c10c sgminer-gm
+#miner 96c10c sgminer-gm
 #miner 9591b8 sgminer-gm
 custompanel activeahmed1
 reb 10d770 7
