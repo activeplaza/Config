@@ -3,16 +3,16 @@ maxgputemp 95
 #globalminer zcash-miner
 globalminer claymore
 stratumproxy miner
-proxywallet 0x2A8aC9Fd9782a539B338Ed8f37B43068281ba3aB
-#proxywallet t1e65Ff6ksfS5bPsLJT4QPTQ2XnN5R4AG3v
-proxypool1 us1.ethpool.org:3333
-proxypool2 us2.ethpool.org:3333
-#proxypool1 zec-us-east1.nanopool.org:6666
-#proxypool2 zec-us-west1.nanopool.org:6666
+claymore=proxywallet 0x2A8aC9Fd9782a539B338Ed8f37B43068281ba3aB
+claymore=proxypool1 us1.ethpool.org:3333
+claymore=proxypool2 us2.ethpool.org:3333
 flags --cl-global-work 8192 --farm-recheck 200
+claymore-zcash=proxypool1 us1-zcash.flypool.org:3333                                               
+claymore-zcash=proxypool2 eu1-zcash.flypool.org:3333
+claymore-zcash=proxywallet t1QRgtRRiSeg9wHSLZByq3fC4KKzbGRsYsJ
 globalfan 100
 autoreboot 3
-#miner 0ce68d sgminer-gm
+miner 5ea07f claymore-zcash
 #miner 3366c5 sgminer-gm
 cor 115-C766PI20-101 890
 mem 115-C766PI20-101 1600
