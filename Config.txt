@@ -15,7 +15,7 @@ autoreboot 3
 miner 5ea07f claymore-zcash
 miner 9a4f34 claymore-zcash
 miner 9a4d13 claymore-zcash
-miner 9e3ab8 claymore-zcash
+#miner 9e3ab8 claymore-zcash
 #miner 9e3650 claymore-zcash
 miner 9e367f claymore-zcash
 miner 9e3633 claymore-zcash
