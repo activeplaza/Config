@@ -13,6 +13,15 @@ claymore-zcash=proxywallet t1QRgtRRiSeg9wHSLZByq3fC4KKzbGRsYsJ
 globalfan 100
 autoreboot 3
 miner 5ea07f claymore-zcash
+miner 9a4f34 claymore-zcash
+miner 9a4d13 claymore-zcash
+miner 9e3ab8 claymore-zcash
+miner 9e3650 claymore-zcash
+miner 9e367f claymore-zcash
+miner 9e3633 claymore-zcash
+miner 10d64f claymore-zcash
+miner e149bf claymore-zcash
+miner effcc9 claymore-zcash
 #miner 3366c5 sgminer-gm
 cor 115-C766PI20-101 890
 mem 115-C766PI20-101 1600
