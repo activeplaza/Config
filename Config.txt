@@ -12,8 +12,8 @@ claymore-zcash=proxypool2 eu1-zcash.flypool.org:3333
 claymore-zcash=proxywallet t1QRgtRRiSeg9wHSLZByq3fC4KKzbGRsYsJ
 globalfan 100
 autoreboot 3
-cor 115-C766PI20-101 890
-mem 115-C766PI20-101 1600
+cor 115-C766PI20-101 820
+mem 115-C766PI20-101 1575
 pwr 115-C766PI20-101 20
 cor 115-C766PI2-101 890
 mem 115-C766PI2-101 1650
