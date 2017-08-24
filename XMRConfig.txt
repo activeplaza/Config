@@ -1,0 +1,12 @@
+maxgputemp 85
+globalminer sgminer-gm-xmr
+sgminer-gm-xmr=proxypool1 xmr-us-east1.nanopool.org:14444
+sgminer-gm-xmr=proxypool2 xmr-us-west1.nanopool.org:14444
+sgminer-gm-xmr=proxywallet 463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.a73aab1f8be84baebc13d80c03c34344bf3256eef7b74678b03ffcb1f0d73ade
+sgminer-gm-xmr=poolpass1 activeplazainc@gmail.com
+sgminer-gm-xmr=poolpass2 activeplazainc@gmail.com
+globalfan 100
+
+cor 9a29aa 1090 1090 1090 1090 1090 1090
+mem 9a29aa 2000 2000 2000 2000 2000 2000
+pwr 9a29aa 7 7 7 7 7 7
