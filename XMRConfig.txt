@@ -6,7 +6,7 @@ sgminer-gm-xmr=proxywallet 463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJr
 sgminer-gm-xmr=poolpass1 activeplazainc@gmail.com
 sgminer-gm-xmr=poolpass2 activeplazainc@gmail.com
 globalfan 100
-custompanel activeahmed1
+custompanel activxahmed1
 
 cor 115-C766PI20-101 890
 mem 115-C766PI20-101 1575
