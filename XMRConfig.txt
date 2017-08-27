@@ -8,6 +8,9 @@ sgminer-gm-xmr=poolpass2 activeplazainc@gmail.com
 globalfan 100
 custompanel activeahmed1
 
+cor 115-C766PI20-101 890
+mem 115-C766PI20-101 1575
+pwr 115-C766PI20-101 20
 
 cor 9a29aa 1090 1090 1090 1090 1090 1090
 mem 9a29aa 2000 2000 2000 2000 2000 2000
