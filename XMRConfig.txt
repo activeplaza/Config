@@ -1,7 +1,7 @@
 maxgputemp 85
 stratumproxy miner
 globalminer claymore-xmr
-proxypool1 xmr-us-east1.nanopool.org
+proxypool1 xmr-us-east1.nanopool.org:14444
 proxywallet 463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.a73aab1f8be84baebc13d80c03c34344bf3256eef7b74678b03ffcb1f0d73ade
 poolpass1 x
 globalfan 100
