@@ -1,7 +1,7 @@
 maxgputemp 85
 stratumproxy miner
 globalminer claymore-xmr
-proxypool1 electroneum.hashparty.io:5555
+proxypool1 pool.electroneum.space:7777
 proxywallet etnjzBmshEsgWPeGeMAFeFBydrkbNVcioL93hwKZSauxJxj3P14CBgTTx8xDVRinvoKTcAfpVLo4aRi5wMBKBcxv7SJcuwbWkK
 poolpass1 x
 globalfan 100
