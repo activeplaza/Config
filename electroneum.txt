@@ -1,6 +1,6 @@
 maxgputemp 85
 stratumproxy miner
-globalminer sgminer-gm-xmr
+globalminer claymore-xmr
 proxypool1 electroneum.mobile-mining.com:7777
 proxywallet etnjzBmshEsgWPeGeMAFeFBydrkbNVcioL93hwKZSauxJxj3P14CBgTTx8xDVRinvoKTcAfpVLo4aRi5wMBKBcxv7SJcuwbWkK
 poolpass1 x
