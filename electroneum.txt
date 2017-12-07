@@ -10,7 +10,7 @@ proxywallet etnjzBmshEsgWPeGeMAFeFBydrkbNVcioL93hwKZSauxJxj3P14CBgTTx8xDVRinvoKT
 poolpass1 x
 globalfan 100
 custompanel activeahmed1
-flags --cl-global-work 8192 --farm-recheck 200
+claymore-xmr=flags -nofee 1
 
 cor 115-C766PI20-101 890
 mem 115-C766PI20-101 1500
