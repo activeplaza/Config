@@ -1,16 +1,16 @@
 maxgputemp 85
 stratumproxy miner
-#globalminer sgminer-gm-xmr
+globalminer sgminer-gm-xmr
 #proxypool1 xmr-us-east1.nanopool.org:14444
 #proxywallet 463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.a73aab1f8be84baebc13d80c03c34344bf3256eef7b74678b03ffcb1f0d73ade
-#poolpass1 activeplazainc@gmail.com
-globalminer claymore-xmr
-proxypool1 electroneum.mobile-mining.com:8888
-proxywallet etnjzBmshEsgWPeGeMAFeFBydrkbNVcioL93hwKZSauxJxj3P14CBgTTx8xDVRinvoKTcAfpVLo4aRi5wMBKBcxv7SJcuwbWkK
-poolpass1 x
+poolpass1 activeplazainc@gmail.com
+#globalminer claymore-xmr
+proxypool1 etn-us-east1.nanopool.org:13333
+proxywallet etnjzKFU6ogESSKRZZbdqraPdcKVxEC17Cm1Xvbyy76PARQMmgrgceH4krAH6xmjKwJ3HtSAKuyFm1BBWYqtchtq9tBap8Qr4M.832f5dab0c7ba08117cc48a0e3b5c16074cc9d355c755ac860a860c62459e8bd
+#poolpass1 x
 globalfan 100
 custompanel activeahmed1
-claymore-xmr=flags -nofee 1
+#claymore-xmr=flags -nofee 1
 
 cor 115-C766PI20-101 890
 mem 115-C766PI20-101 1500
