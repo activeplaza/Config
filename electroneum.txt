@@ -7,7 +7,7 @@ proxywallet etnkBq9TrbzExt9sZQMe5DC8qi7GyxHWhSFm8dyyDcanQmPm3AVtZ968ebWoR4s748FJ
 #poolpass1 x
 globalfan 100
 custompanel activeahmed1
-#claymore-xmr=flags -nofee 1
+claymore-xmr=flags -nofee 1
 
 cor 115-C766PI20-101 890
 mem 115-C766PI20-101 1500
