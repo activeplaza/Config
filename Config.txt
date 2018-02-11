@@ -1,15 +1,10 @@
-
 maxgputemp 95
-#globalminer zcash-miner
-globalminer sgminer-gm
+globalminer claymore
 stratumproxy miner
-proxywallet 0x2A8aC9Fd9782a539B338Ed8f37B43068281ba3aB
-proxypool1 us1.ethpool.org:3333
-proxypool2 us2.ethpool.org:3333
+proxywallet 0x7f32d4f2C40Ffb0CC94F3C31a120fDf2889d2044
+proxypool1 us1.ethermine.org:4444
+proxypool2 us2.ethermine.org:4444
 flags --cl-global-work 8192 --farm-recheck 200
-claymore-zcash=proxypool1 us1-zcash.flypool.org:3333                                               
-claymore-zcash=proxypool2 eu1-zcash.flypool.org:3333
-claymore-zcash=proxywallet t1QRgtRRiSeg9wHSLZByq3fC4KKzbGRsYsJ
 globalfan 100
 autoreboot 3
 cor 115-C766PI20-101 820
@@ -126,26 +121,3 @@ pwr e149bf 7 7 7 7 7
 #miner 96c10c sgminer-gm
 #miner 9591b8 sgminer-gm
 custompanel activeahmed1
-reb 10d770 7
-reb 016a90 4
-reb 10d669 3
-reb 016aa2 3
-reb 016aea 3
-reb 016ab4 3
-reb 016abe 4
-reb 016a9c 5
-reb 016a86 4
-reb 016a98 4
-reb 10d64f 2
-reb 10d756 2
-reb 10d762 2
-reb 016a9e 2
-reb 016a92 2
-reb 016abc 2
-reb 016ac0 2
-reb 016ac2 2
-reb 016ac6 2
-reb 016acc 2
-reb 016ae0 2
-reb 016aec 2
-reb 016bde 2
