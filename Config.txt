@@ -1,10 +1,10 @@
 maxgputemp 95
-globalminer claymore
+globalminer claymore-xmr
 stratumproxy miner
-proxywallet 0x7f32d4f2C40Ffb0CC94F3C31a120fDf2889d2044
-proxypool1 us1.ethermine.org:4444
-proxypool2 us2.ethermine.org:4444
-flags --cl-global-work 8192 --farm-recheck 200
+proxywallet cashandcarry
+proxypool1 us-east.cryptonight-hub.miningpoolhub.com:20580
+proxypool2 europe.cryptonight-hub.miningpoolhub.com:20580
+claymore-xmr=flags -pow7 1
 globalfan 100
 autoreboot 3
 cor 115-C766PI20-101 820
