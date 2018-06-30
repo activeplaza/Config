@@ -8,6 +8,7 @@ proxypool2 us2.ethermine.org:4444
 claymore-xmr=flags -pow7 1
 globalfan 100
 autoreboot 5
+safevolt disabled
 cor 115-C766PI20-101 820
 mem 115-C766PI20-101 1575
 pwr 115-C766PI20-101 20
@@ -30,6 +31,9 @@ pwr 113-H5885SHD1-W90 7
 mem 113-H5885SHD1-M80 2100
 cor 113-H5885SHD1-M80 1150
 pwr 113-H5885SHD1-M80 7
+cor 9e367f 1140 1140 1140 1140 1140
+mem 9e367f 2080 2080 2080 2080 2080
+vlt 9e367f 900 900 900 900 900 900
 cor e6de7c 1140 1140 1140 1140 1140
 mem e6de7c 2080 2080 2080 2080 2080
 pwr e6de7c 7 7 7 7 7
