@@ -1,4 +1,4 @@
-# 016ac0 3
+# 016ac0 4
 maxgputemp 95
 globalminer claymore
 stratumproxy miner
