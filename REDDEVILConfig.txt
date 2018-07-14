@@ -4,7 +4,6 @@ stratumproxy miner
 proxywallet 0xe0953540015F43b0A54A82201535EFF19b450747
 proxypool1 us1.ethermine.org:4444
 proxypool2 us2.ethermine.org:4444
-claymore-xmr=flags -pow7 1
 globalfan 100
 autoreboot 5
 safevolt disabled
