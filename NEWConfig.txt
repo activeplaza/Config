@@ -1,4 +1,4 @@
-#016abe 1
+#f20c48 1
 maxgputemp 95
 globalminer claymore
 stratumproxy miner
