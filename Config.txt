@@ -1,4 +1,4 @@
-# 70ab7e
+# 70ab7e 1
 maxgputemp 95
 globalminer claymore
 stratumproxy miner
