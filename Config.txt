@@ -9,8 +9,8 @@ claymore-xmr=flags -pow7 1
 globalfan 100
 autoreboot 5
 safevolt disabled
-#legacydriver 70ab7e amdgpu
-#miner 70ab7e ethmniner
+legacydriver 70ab7e amdgpu
+miner 70ab7e ethmniner
 cor 115-C766PI20-101 820
 mem 115-C766PI20-101 1575
 pwr 115-C766PI20-101 20
@@ -281,7 +281,7 @@ cor 2125ff 820 820 820 820 820 820
 mem 2125ff 1575 1575 1575 1575 1575 1575
 pwr 2125ff 20 20 20 20 20 20
 cor 70ab7e 825 825 825 825 825 825
-mem 70ab7e 1575 1575 1575 1575 1575 1575
+# mem 70ab7e 1575 1575 1575 1575 1575 1575
 
 cor 9e3ab8 820 820 820 820 820 820
 mem 9e3ab8 1575 1575 1575 1575 1575 1575
