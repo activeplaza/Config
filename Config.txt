@@ -1,4 +1,4 @@
-# 70ab7e 1
+# 70ab7e 2
 maxgputemp 95
 globalminer claymore
 stratumproxy miner
@@ -10,7 +10,7 @@ globalfan 100
 autoreboot 5
 safevolt disabled
 legacydriver 70ab7e amdgpu
-miner 70ab7e ethmniner
+miner 70ab7e claymore-legacy
 cor 115-C766PI20-101 820
 mem 115-C766PI20-101 1575
 pwr 115-C766PI20-101 20
