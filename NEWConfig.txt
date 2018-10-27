@@ -2,7 +2,7 @@
 maxgputemp 95
 globalminer claymore
 stratumproxy miner
-proxywallet 0xe0953540015F43b0A54A82201535EFF19b450747
+proxywallet 0x7f32d4f2C40Ffb0CC94F3C31a120fDf2889d2044
 proxypool1 us1.ethermine.org:4444
 proxypool2 us2.ethermine.org:4444
 globalfan 100
